@@ -188,8 +188,10 @@ change any code elsewhere.
 
 ## Part 3: Verification (2 pts)
 
-Your last task is to provide annotations to the tests such that your verifier
-can solve them. You can provide these with the following statement:
+Your last task is to verify a small suite of NanoJS programs. As before, you
+need to provide annotations to the tests such that your verifier can solve them.
+But now, the annotations are predicates. You can provide these with the
+following statement:
 
     pred(P);
 
@@ -219,3 +221,9 @@ Write your comments into this file below this line, and include them in your sub
 Comments: Did it work?
 
 -- Please fill in.
+
+
+## Extra Point (1 pts)
+If you got this far you likely won't need an extra point. But if you're curious,
+you can implement a function that mines predicates from the program text and
+uses them to eliminate predicate annotations. How many can you get rid of?
