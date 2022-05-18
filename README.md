@@ -121,7 +121,7 @@ to implement the solving algorithm, as discussed in class. This will
 require implementing the following functions from **Fixpoint.hs**:
 
     - post            (0.5 pts)
-    - abst_post       (0.5 pts)
+    - pred_abs       (0.5 pts)
     - fixpoint_step   (3 pts)
 
 Your first task is to implement `post`, as discussed in class, however, here
