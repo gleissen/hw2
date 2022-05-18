@@ -74,7 +74,7 @@ You can use functions `addVC` to add regular Horn clauses to the state, and
 **Tip:** When defining substitution on queries, you can use the implementation
 for substitution on expressions in `Logic.subst_exp`.
 
-**Tip:** In function generateStmtVC, you will need to generate fresh queries.
+**Tip:** In function `generateStmtVC`, you will need to generate fresh queries.
 You can use function `freshQuery` for this.
 
 **Tip:** While loops are now annotated with predicates instead of loop
