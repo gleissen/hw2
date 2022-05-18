@@ -109,7 +109,7 @@ returns a pair of (1) normalized Query and (2) additional definitions.
 
 **Tip:** Take a look at functions `mapM`, `liftM`, `unzip`, `concat`, `fst` and
 `snd` which may be useful. Note, you don't have to use these function in your
-implementation, if you prefer writing them in a different way.
+implementation, if you prefer writing it in a different way.
 
 You can then use `normalizeQuery` to define `normalizeHorn` and
 `normalizeBoundM` which normalize regular Horn clauses and bounds, respectively.
