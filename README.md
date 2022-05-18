@@ -188,7 +188,7 @@ change any code elsewhere.
 
 ## Part 3: Verification (2 pts)
 
-Your last tast is to provide annotations to the tests such that your verifier
+Your last task is to provide annotations to the tests such that your verifier
 can solve them. You can provide these with the following statement:
 
     pred(P);
