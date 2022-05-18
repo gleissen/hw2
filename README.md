@@ -226,4 +226,5 @@ Comments: Did it work?
 ## Extra Point (1 pts)
 If you got this far you likely won't need an extra point. But if you're curious,
 you can implement a function that mines predicates from the program text and
-uses them to eliminate predicate annotations. How many can you get rid of?
+uses them to eliminate predicate annotations. How many annotations can you
+eliminate?
