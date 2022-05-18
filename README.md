@@ -6,10 +6,10 @@ Verification for Security - Assignment 2 (10 pts)
 In this assignment, you will implement a verifier with Constrained Horn Clauses.
 The program flow consists of 4 steps.
 
-(1) Parsing ECMAScript to Nano (see `Nano.hs`)
-(2) Generation of Horn Clauses from Nano using VCGen (see `HornVCs.hs`)
-(3) Normalizing the Horn Clauses (see `Clauses.hs`)
-(4) Computing a solution for the Horn Clauses using Predicate Abstraction (see `Fixpoint.hs`)
+        (1) Parsing ECMAScript to Nano (see `Nano.hs`)
+        (2) Generation of Horn Clauses from Nano using VCGen (see `HornVCs.hs`)
+        (3) Normalizing the Horn Clauses (see `Clauses.hs`)
+        (4) Computing a solution for the Horn Clauses using Predicate Abstraction (see `Fixpoint.hs`)
 
 You will implement parts (2-4).
 
