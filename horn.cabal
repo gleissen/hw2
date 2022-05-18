@@ -1,0 +1,42 @@
+name:                horn
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/horn#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Klaus v. Gleissenthall
+maintainer:          k.freiherrvongleissenthal@vu.nl
+copyright:           2020 Klaus v. Gleissenthall
+category:            Formal Methods
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+library
+  exposed-modules:
+    Horn.Bindings.Z3
+    Horn.Logic.Clauses
+    Horn.Fixpoint.Fixpoint
+    Horn.HornVCs.HornVCs
+    Horn.Monad
+    Horn.Nano.Nano
+ 
+  hs-source-dirs: ., src
+  build-depends:
+    base >= 4.7 && < 5, z3, containers, mtl, transformers, toysolver, matrix, language-ecmascript, pretty, parsec, unordered-containers, syb, hashable, ansi-wl-pprint, cmdargs, rainbow
+  default-language: Haskell2010
+
+executable horn
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, z3, containers, mtl, transformers, toysolver, matrix, language-ecmascript, pretty, parsec, unordered-containers, syb, hashable, ansi-wl-pprint, cmdargs, rainbow
+  other-modules:
+    Horn.Bindings.Z3
+    Horn.CmdLine
+    Horn.Fixpoint.Fixpoint
+    Horn.HornVCs.HornVCs
+    Horn.Logic.Clauses
+    Horn.Monad
+    Horn.Nano.Nano
