@@ -27,13 +27,17 @@ Running Tests
 ---
 Building and running the verifier is the same as in the previous assignment:
 
-    $ stack run -- tests/pos-loop/test.js
+    $ stack run -- tests/pos/while5.js
 
 As before you can run, say, all positive tests using:
 
-    $ stack run -- tests/pos-loop/* 
+    $ stack run -- tests/pos/* 
 
-As before the functions you need to fill in will throw an error: "TODO: FILL THIS IN".
+and all negative tests with 
+
+    $ stack run -- tests/neg/* 
+
+The functions you need to fill in will throw an error: "TODO: FILL THIS IN".
 
 Assignment
 ----------
