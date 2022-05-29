@@ -176,8 +176,8 @@ in the head of the current clause).
 
 **TIP:** You can again use function `implies` for the subsumption check.
 
-(4) If the new solition is already contained in the current solution, you can return the empty set.
-Else, return a new work-item containing the newly computed solution.
+(4) If the new state is already contained in the current solution, you can return the empty set.
+Else, return a new work-item containing the newly computed state.
 
 **NOTE:** Make sure that your new work item is expressed over the variable used in the solution for its query.
 
