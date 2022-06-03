@@ -125,7 +125,7 @@ require implementing the following functions from **Fixpoint.hs**:
     - fixpoint_step   (3 pts)
 
 Your first task is to implement `post`, as discussed in class, however, here
-`post`'s first argument are the variables that we want to eliminate.
+`post`'s second argument are the variables that we want to eliminate.
 You will notice that, in class, we used existential quantifiers to eliminate
 variables. Here, our logic does not contain existential quantifiers. We can work
 around this by substituting the existentially quantified variables by *fresh*
